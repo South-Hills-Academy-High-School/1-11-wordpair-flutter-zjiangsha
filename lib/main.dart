@@ -53,6 +53,8 @@ class MyHomePage extends StatelessWidget {
     var appState = context.watch<MyAppState>();
     var pair = appState.current;
 
+    IconData icon;
+
     return Scaffold(
       body: Center(
         child: Column(
